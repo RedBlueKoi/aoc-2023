@@ -1,9 +1,10 @@
 {
-  "name": "01",
+  "name": "aoc_2023",
   "module": "index.ts",
   "type": "module",
   "scripts": {
-    "dev": "bun --watch index.ts"
+    "dev:1": "bun --watch 01/index.ts",
+    "dev:2": "bun --watch 02/index.ts"
   },
   "devDependencies": {
     "bun-types": "latest"
